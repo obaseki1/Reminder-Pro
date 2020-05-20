@@ -1,24 +1,28 @@
-.App{
-    padding-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.App {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body {
+  background-color: rgb(210, 231, 250);
 }
 
-.title{
-    text-align: center;
-    font-size: 26px;
+.title {
+  text-align: center;
+  font-size: 26px;
 }
-.list-group, .col-sm-4{
-    padding-top: 15px;
+.list-group,
+.col-sm-4 {
+  padding-top: 15px;
 }
-.reminder-form{
+.reminder-form {
   margin-right: 5px;
 }
-.list-item{
-    display: inline-block;
+.list-item {
+  display: inline-block;
 }
-.delete-button{
-    float: right;
-    padding-right: 5px;
+.delete-button {
+  float: right;
+  padding-right: 5px;
 }
